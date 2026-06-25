@@ -45,7 +45,7 @@ AGENTES = ["Aquino, Héctor", "Arrúa, Rubén", "Barrios, Ignacio", "Castañeda,
            "Posdeley, Cesar","Ramos, Alejandro", "Rivero, Javier", "Soto, Nelson", "Tika, Alejo", "Veloz, Antonio"]
 
 TOTALES_PROPIOS = {
-    "10,7m3": 28,
+    "10,6m3": 28,
     "Compact": 36,
     "Tackeo": 6
 }
@@ -78,7 +78,7 @@ def registrar_movimiento_web(tipo, accion, cantidad, servicio, agente):
 
 # --- PROCESAMIENTO MATEMÁTICO EN LA NUBE ---
 stock_detallado = {
-    "10,7m3": {"jaula": TOTALES_PROPIOS["10,7m3"], "en_uso": 0, "vacios": 0},
+    "10,6m3": {"jaula": TOTALES_PROPIOS["10,7m3"], "en_uso": 0, "vacios": 0},
     "Compact": {"jaula": TOTALES_PROPIOS["Compact"], "en_uso": 0, "vacios": 0},
     "Tackeo": {"jaula": TOTALES_PROPIOS["Tackeo"], "en_uso": 0, "vacios": 0}
 }
@@ -143,7 +143,7 @@ with col_izq:
             clase_color = "stock-seguro"
             status_texto = "✔ DEPOSITOS SEGUROS"
             
-        nombre_tarjeta = "TUBO 10,7m³" if tipo == "10,7m3" else f"TUBO {tipo.upper()}"
+        nombre_tarjeta = "TUBO 10,6m³" if tipo == "10,6m3" else f"TUBO {tipo.upper()}"
         st.markdown(f"""
             <div class="tarjeta-stock {clase_color}">
                 <h4 style="margin:0;">{nombre_tarjeta} (Total: {total_envases} envases)</h4>
