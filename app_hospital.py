@@ -50,7 +50,7 @@ SERVICIOS = [
     "Guardia Covid", "Hemodiálisis", "Hemodinamia", "Hemoterapia", "Hospital de día", 
     "Odontología", "Oftalmología", "Otorrino", "Quirófano", "Rayos", "Resonador", 
     "Sala 5", "Stock", "Traumatología (9)", "Traumatología (10)", "UCO", "UDE", 
-    "Urología", "Vacunación"
+    "Urología","UTI", "Vacunación"
 ]
 AGENTES = ["Aquino, Héctor", "Arrúa, Rubén", "Barrios, Ignacio", "Castañeda, Roberto",
     "Martinez, Eduardo", "Obispo, Fabián", "Posdeley, Cesar", "Ramos, Alejandro", 
