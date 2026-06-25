@@ -45,11 +45,11 @@ st.markdown("""
 TIPOS_TUBOS = ["10,6m3", "Compact", "Tackeo"]
 ACCIONES = ["Entrega al Servicio", "Retira del Servicio", "Recarga"]
 SERVICIOS = [
-    "Alergia", "Cardiovascular", "Cardiología (consultorio)", "Cirugía Const.", 
+    "1er Piso", "2do Piso", "3er Piso", "Alergia", "Cardiovascular", "Cardiología (consultorio)", "Cirugía Const.", 
     "Clínica nueva", "Dermatología", "Ecografía", "Gastroenterología", "Guardia", 
     "Guardia Covid", "Hemodiálisis", "Hemodinamia", "Hemoterapia", "Hospital de día", 
     "Odontología", "Oftalmología", "Otorrino", "Quirófano", "Rayos", "Resonador", 
-    "Sala 5", "Stock", "Traumatología (9)", "Traumatología (10)", "UCO", "UDE", 
+    "Sala 5", "Stock", "Traumatología (9)", "Traumatología (10)", "Tomógrafo", "UCO", "UDE", 
     "Urología","UTI", "Vacunación"
 ]
 AGENTES = ["Aquino, Héctor", "Arrúa, Rubén", "Barrios, Ignacio", "Castañeda, Roberto",
