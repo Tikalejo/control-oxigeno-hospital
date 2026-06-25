@@ -33,7 +33,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Configuración de Activos del Hospital
-TIPOS_TUBOS = ["10,7m3", "Compact", "Tackeo"]
+TIPOS_TUBOS = ["10,6m3", "Compact", "Tackeo"]
 ACCIONES = ["Entrega al Servicio", "Retira del Servicio", "Recarga"]
 SERVICIOS = ["Alergia", "Cardiovascular", "Cardiología (consultorio)", "Cirugía Const.", 
              "Clínica nueva", "Dermatología", "Ecografía", "Gastroenterología", "Guardia", 
