@@ -35,8 +35,14 @@ st.markdown("""
 # Configuración de Activos del Hospital
 TIPOS_TUBOS = ["10,7m3", "Compact", "Tackeo"]
 ACCIONES = ["Entrega al Servicio", "Retira del Servicio", "Recarga"]
-SERVICIOS = ["Guardia", "UCO", "UDE", "UTI", "Stock"]
-AGENTES = ["Rivero", "Ruben Arrua"]
+SERVICIOS = ["Alergia", "Cardiovascular", "Cardiología (consultorio)", "Cirugía Const.", 
+             "Clínica nueva", "Dermatología", "Ecografía", "Gastroenterología", "Guardia", 
+             "Guardia Covid", "Hemodiálisis", "Hemodinamia", "Hemoterapia", "Hospital de día", 
+             "Odontología", "Oftalmología", "Otorrino", "Quirófano", "Rayos", "Resonador", 
+             "Sala 5", "Stock", "Traumatología (Sala 9)", "Traumatología (Sala 10)", "UCO", "UDE", 
+             "Urología", "Vacunación"]
+AGENTES = ["Aquino, Héctor", "Arrúa, Rubén", "Barrios, Ignacio", "Castañeda, Roberto","Martinez, Eduardo", "Obispo, Fabián",
+           "Posdeley, Cesar","Ramos, Alejandro", "Rivero, Javier", "Soto, Nelson", "Tika, Alejo", "Veloz, Antonio"]
 
 TOTALES_PROPIOS = {
     "10,7m3": 28,
