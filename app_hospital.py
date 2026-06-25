@@ -78,7 +78,7 @@ def registrar_movimiento_web(tipo, accion, cantidad, servicio, agente):
 
 # --- PROCESAMIENTO MATEMÁTICO EN LA NUBE ---
 stock_detallado = {
-    "10,6m3": {"jaula": TOTALES_PROPIOS["10,7m3"], "en_uso": 0, "vacios": 0},
+    "10,6m3": {"jaula": TOTALES_PROPIOS["10,6m3"], "en_uso": 0, "vacios": 0},
     "Compact": {"jaula": TOTALES_PROPIOS["Compact"], "en_uso": 0, "vacios": 0},
     "Tackeo": {"jaula": TOTALES_PROPIOS["Tackeo"], "en_uso": 0, "vacios": 0}
 }
